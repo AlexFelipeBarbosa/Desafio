@@ -11,8 +11,8 @@
   DTS:LocaleID="1046"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="38"
-  DTS:VersionGUID="{C15C4C26-2606-4D9A-A908-B74FDDB414DC}">
+  DTS:VersionBuild="69"
+  DTS:VersionGUID="{7F10D08B-593B-4C24-8673-ED6FC9EAA034}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -91,11 +91,11 @@
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[csv_Device]"
+      DTS:refId="Package.ConnectionManagers[csv_Devices]"
       DTS:CreationName="FLATFILE"
-      DTS:Description="csv_Device"
+      DTS:Description="csv_Devices"
       DTS:DTSID="{3DEF69AE-0ABE-4111-99F7-11DE10685D81}"
-      DTS:ObjectName="csv_Device">
+      DTS:ObjectName="csv_Devices">
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:Format="Delimited"
@@ -114,7 +114,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Profile Name"
-              DTS:DTSID="{3F1267D0-AEC4-478E-ABA0-2D1C5DE6984B}"
+              DTS:DTSID="{8D312CD6-44E1-4E6F-A956-3730C9B3D331}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -123,7 +123,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Esn"
-              DTS:DTSID="{B1A08D61-3B2F-4C19-9A4F-6FF5489DA8F2}"
+              DTS:DTSID="{7A1E14D3-4C30-42B2-A8F9-E9801891BCA1}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -132,7 +132,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Device Type"
-              DTS:DTSID="{36819C4D-1D89-4FDC-8392-0B8B99E803D1}"
+              DTS:DTSID="{727534EA-3BDD-47D4-AE34-B9B8C010E4C6}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -141,7 +141,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Acct First Playback Date"
-              DTS:DTSID="{2A67809A-BC57-4322-B15F-AEE5B9FBB019}"
+              DTS:DTSID="{DD59CAFB-CB54-4020-8C74-EC75EB8B5344}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -150,7 +150,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Acct Last Playback Date"
-              DTS:DTSID="{84484643-53B8-44DA-860C-DFC67D75EB42}"
+              DTS:DTSID="{85A522B0-994B-491D-8B85-77D401BB8BD3}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -159,7 +159,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Acct First Playback Date For User Generated Plays"
-              DTS:DTSID="{DAB93C8A-7146-49B4-BF2F-24E2350E4B79}"
+              DTS:DTSID="{9AAD313F-E2DD-4007-83AE-1583852C43F2}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -168,7 +168,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Acct Last Playback Date For User Generated Plays"
-              DTS:DTSID="{F740F0AD-37C2-4142-8DD8-6CB5613A0F81}"
+              DTS:DTSID="{35D2F7BF-FC42-491E-B44D-22051C30EE14}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -177,7 +177,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Profile First Playback Date"
-              DTS:DTSID="{D38FFC52-2B52-4AF6-A296-91FF7F4ADD1B}"
+              DTS:DTSID="{6248CA9C-F1A8-4771-B725-524EEEC7135C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -186,7 +186,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Profile Last Playback Date"
-              DTS:DTSID="{B95F6F11-5FA1-4BAF-AE65-B1D2A9D6F820}"
+              DTS:DTSID="{85C1FCC6-CCC1-486A-9919-E8E24D547E05}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -195,7 +195,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Profile First Playback Date For User Generated Plays"
-              DTS:DTSID="{2E6C5DC5-E53B-4E01-B648-9A4DF7C98134}"
+              DTS:DTSID="{7AD1DBE1-141A-45A2-9EDF-4AF7D7B7B94D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -204,7 +204,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Profile Last Playback Date For User Generated Plays"
-              DTS:DTSID="{D669471A-7911-4FF1-97C3-1F89E42F4042}"
+              DTS:DTSID="{FDDA4010-570F-4432-9149-EAFD483351EF}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -213,7 +213,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Deactivation Time"
-              DTS:DTSID="{0194A2C4-44CD-4E8A-809F-2470FCCD2C9F}"
+              DTS:DTSID="{C1406CF1-EE99-49C2-A047-7DC14B06CAC2}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -232,7 +232,7 @@
           DTS:HeaderRowDelimiter="_x000A_"
           DTS:ColumnNamesInFirstDataRow="True"
           DTS:RowDelimiter=""
-          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
           DTS:ConnectionString="C:\Alex\GitHub\Desafio\BASES\MyList.csv">
           <DTS:FlatFileColumns>
@@ -243,7 +243,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Profile Name"
-              DTS:DTSID="{28BEF824-0BB1-4147-8266-3111716235B0}"
+              DTS:DTSID="{60E3A176-ECAF-49A3-969E-EF04B3DCF78C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -252,7 +252,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Title Name"
-              DTS:DTSID="{41552A12-7385-4867-AAB3-8858A6221818}"
+              DTS:DTSID="{4163D9C1-BFD9-46E9-B58B-F6ABC85E9E17}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -261,7 +261,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Country"
-              DTS:DTSID="{C098785C-E489-4AA5-ADCB-CC6B1240C301}"
+              DTS:DTSID="{B0266622-1B85-4D78-9608-60D340697562}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -270,7 +270,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Utc Title Add Date"
-              DTS:DTSID="{E5DAF317-5DC4-43B1-9889-7DCE7642EBD5}"
+              DTS:DTSID="{1A95C744-F402-4685-A51F-85034722201B}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -378,7 +378,7 @@
           DTS:HeaderRowDelimiter="_x000A_"
           DTS:ColumnNamesInFirstDataRow="True"
           DTS:RowDelimiter=""
-          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
           DTS:ConnectionString="C:\Alex\GitHub\Desafio\BASES\SearchHistory.csv">
           <DTS:FlatFileColumns>
@@ -389,7 +389,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Profile Name"
-              DTS:DTSID="{FB36A474-5CB4-42B6-ADB4-A35EBBFBD769}"
+              DTS:DTSID="{79D881E8-1E65-4964-8A01-8E4ADDDDA7A0}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -398,7 +398,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Country Iso Code"
-              DTS:DTSID="{FB2F2B1F-02DE-4452-A1C2-57046F79F92D}"
+              DTS:DTSID="{5B4BB9E5-CB8E-4DE5-BABA-B1026128475B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -407,7 +407,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Device"
-              DTS:DTSID="{A63CA72B-E1B7-4CA7-A980-6B3C1ABA671A}"
+              DTS:DTSID="{C70E9666-7AD5-45B2-9583-43B745822BE5}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -415,7 +415,7 @@
               DTS:DataType="16"
               DTS:TextQualified="True"
               DTS:ObjectName="Is Kids"
-              DTS:DTSID="{C406BE37-B705-4FCF-A134-471C12959C6F}"
+              DTS:DTSID="{1EE3E63B-0910-4BA1-99CE-287C0CCF8193}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -424,7 +424,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Query Typed"
-              DTS:DTSID="{03DF3592-D28B-4DB4-A3B6-3E667C10DF8C}"
+              DTS:DTSID="{B2805EF8-84C6-4626-8AD0-98197D1E4D0E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -433,7 +433,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Displayed Name"
-              DTS:DTSID="{E807C604-10A9-488C-A1D6-A1976B6E9BBF}"
+              DTS:DTSID="{28CC488E-998B-4E79-9310-BE24C514C8CD}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -442,7 +442,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Action"
-              DTS:DTSID="{D5FAB65D-CD27-47CE-9643-C8E78DF3C199}"
+              DTS:DTSID="{71CC4A0B-169A-47AB-9637-34CDB9E8CB92}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -451,7 +451,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Section"
-              DTS:DTSID="{44B92566-C385-49EE-AECC-361087FBD16D}"
+              DTS:DTSID="{F8A381ED-6902-4443-9CA0-A2A0B6F8E96C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -460,7 +460,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Utc Timestamp"
-              DTS:DTSID="{86DF427D-0505-410E-BAC5-83C361358581}"
+              DTS:DTSID="{29F443AB-AE94-46B1-A490-753D62472961}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -479,7 +479,7 @@
           DTS:HeaderRowDelimiter="_x000A_"
           DTS:ColumnNamesInFirstDataRow="True"
           DTS:RowDelimiter=""
-          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
           DTS:ConnectionString="C:\Alex\GitHub\Desafio\BASES\ViewingActivity.csv">
           <DTS:FlatFileColumns>
@@ -490,7 +490,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Profile Name"
-              DTS:DTSID="{E78AAF4D-952D-4EE6-AB7D-949EA26B378F}"
+              DTS:DTSID="{01437DFC-07BD-46D2-8BE6-2F51BFEABE44}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -499,7 +499,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Start Time"
-              DTS:DTSID="{6EEC3DA6-827F-48A2-AE9A-D7DFC1F34F80}"
+              DTS:DTSID="{65AE81D4-B5AE-4A0C-8366-4D8705951A44}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -508,7 +508,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Duration"
-              DTS:DTSID="{5CA969DA-F4FA-4342-A237-C5ED5E6380EE}"
+              DTS:DTSID="{2E415ADF-190E-40BF-ABB4-0C136B5C4F42}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -517,7 +517,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Attributes"
-              DTS:DTSID="{4EC05808-54D8-4242-B189-F37771C17512}"
+              DTS:DTSID="{14B450FD-7212-449A-BCF7-ADF420051BD8}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -526,7 +526,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Title"
-              DTS:DTSID="{3684F7A1-97C7-4AF1-B437-0E67F769AF16}"
+              DTS:DTSID="{4555BB10-B8D7-48D7-87B0-BBA7F2720219}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -535,7 +535,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Supplemental Video Type"
-              DTS:DTSID="{9FF4E2C8-49C1-490D-B739-4B527F209669}"
+              DTS:DTSID="{96BDCFEC-37A2-429A-B87F-9598B58E2BE3}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -544,7 +544,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Device Type"
-              DTS:DTSID="{8E2F5CD3-75CC-4F04-ADC5-E6781C48ECFB}"
+              DTS:DTSID="{32943865-C1C7-4297-BE79-FA7859FDC7E7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -553,7 +553,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Bookmark"
-              DTS:DTSID="{B94847C2-978A-4648-8420-876BB906B998}"
+              DTS:DTSID="{37BA08B4-7C80-4AD4-8CFF-5A32E8EB39AE}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -562,7 +562,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Latest Bookmark"
-              DTS:DTSID="{5F567B4F-D01A-4BC0-8E0E-364DF4AB622F}"
+              DTS:DTSID="{70DA3D6B-45FA-4301-A805-44006FE7A35C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -571,7 +571,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Country"
-              DTS:DTSID="{BFB0532A-572C-4F78-9AA8-08177A1DFA2B}"
+              DTS:DTSID="{FEC64F19-B5A5-4C57-89E9-C91B23FDC22F}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -590,7 +590,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA6aJ8m0IHWUOOPtYJ3TtnCwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADiJQnIuIPQqYG0GEoF922Nb8n0rFOeGrQH0TBSY0B1fQAAAAAOgAAAAAIAACAAAABy58eIGH5+EfcKgfzEZhsM5VbHmkHNDKGk/Wz0fj0+hRAAAADFoYMB2RAo58N43yre8/18QAAAAI2u5ZEwzX8AFgV6nF9oSuictuPkNjafEua69otqXxK9IcYYob7qlcCwxgaoXVTgrtA3RAQIpGE+C+r1uFqKXps</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA6aJ8m0IHWUOOPtYJ3TtnCwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAC8aSVgeo2HjMB4LtaTok7cXP2krv6Uz/sSrG39c5wmSwAAAAAOgAAAAAIAACAAAADIdCP8T6eLiASMyerYB6LT3Rgkc2H0VR3upxaiATXqdhAAAACcR7Rx/ILVTXMNpD9rke+sQAAAALaWmIFZHrBV2XvE6CIlGqFksamVqbvZWvRYCwtl83nGzR8ukCgdl3mNVNfOb9e4MgoiQS3iwnjK/bxeDt0lvy8</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -1080,8 +1080,8 @@
                   <connections>
                     <connection
                       refId="Package\Carga de Dados\Devices\csv_Devices.Connections[FlatFileConnection]"
-                      connectionManagerID="Package.ConnectionManagers[csv_Device]"
-                      connectionManagerRefId="Package.ConnectionManagers[csv_Device]"
+                      connectionManagerID="Package.ConnectionManagers[csv_Devices]"
+                      connectionManagerRefId="Package.ConnectionManagers[csv_Devices]"
                       name="FlatFileConnection" />
                   </connections>
                   <outputs>
@@ -1910,7 +1910,7 @@
                       <outputColumns>
                         <outputColumn
                           refId="Package\Carga de Dados\MyList\csv_MyList.Outputs[Saída de Erro de Origem de Arquivo Simples].Columns[Coluna de Saída de Erro de Origem de Arquivo Simples]"
-                          codePage="1252"
+                          codePage="65001"
                           dataType="text"
                           description="Coluna de Saída de Erro de Origem de Arquivo Simples"
                           lineageId="Package\Carga de Dados\MyList\csv_MyList.Outputs[Saída de Erro de Origem de Arquivo Simples].Columns[Coluna de Saída de Erro de Origem de Arquivo Simples]"
@@ -3836,6 +3836,35 @@
           SQLTask:SqlStatementSource="USE Desafio&#xA;&#xA;IF OBJECT_ID('Clickstream', 'U') IS NOT NULL&#xA;BEGIN&#xA;    TRUNCATE TABLE Clickstream;&#xA;END&#xA;&#xA;IF OBJECT_ID('Devices', 'U') IS NOT NULL&#xA;BEGIN&#xA;    TRUNCATE TABLE Devices;&#xA;END&#xA;&#xA;&#xA;IF OBJECT_ID('MyList', 'U') IS NOT NULL&#xA;BEGIN&#xA;    TRUNCATE TABLE MyList;&#xA;END&#xA;&#xA;IF OBJECT_ID('Ratings', 'U') IS NOT NULL&#xA;BEGIN&#xA;    TRUNCATE TABLE Ratings;&#xA;END&#xA;&#xA;IF OBJECT_ID('SearchHistory', 'U') IS NOT NULL&#xA;BEGIN&#xA;    TRUNCATE TABLE SearchHistory;&#xA;END&#xA;&#xA;IF OBJECT_ID('ViewingActivity', 'U') IS NOT NULL&#xA;BEGIN&#xA;    TRUNCATE TABLE ViewingActivity;&#xA;END" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Transformando Dados"
+      DTS:CreationName="STOCK:SEQUENCE"
+      DTS:Description="Contêiner da Sequência"
+      DTS:DTSID="{656887F2-54C6-4581-A2AB-61EA6B7E0E81}"
+      DTS:ExecutableType="STOCK:SEQUENCE"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Transformando Dados">
+      <DTS:Variables />
+      <DTS:Executables>
+        <DTS:Executable
+          DTS:refId="Package\Transformando Dados\Devices"
+          DTS:CreationName="Microsoft.ExecuteSQLTask"
+          DTS:Description="Device"
+          DTS:DTSID="{17762B4F-163E-4ABF-938B-680916BFA26E}"
+          DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="Devices"
+          DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+          DTS:ThreadHint="0">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <SQLTask:SqlTaskData
+              SQLTask:Connection="{052823DB-4CC6-4EE9-AE01-0A2975BDD1BC}"
+              SQLTask:SqlStatementSource="USE Desafio&#xA;&#xA;--&gt; Transformando os dados da tabela DEVICE&#xA;--&gt; Convertendo os campos de Data&#xA;UPDATE DEVICES&#xA;SET [Acct First Playback Date] = CONVERT(DATETIME, [Acct First Playback Date]),&#xA;    [Acct Last Playback Date] = CONVERT(DATETIME, [Acct Last Playback Date]),&#xA;    [Acct First Playback Date For User Generated Plays] = CONVERT(DATETIME, [Acct First Playback Date For User Generated Plays]),&#xA;    [Acct Last Playback Date For User Generated Plays] = CONVERT(DATETIME, [Acct Last Playback Date For User Generated Plays]),&#xA;    [Profile First Playback Date] = CONVERT(DATETIME, [Profile First Playback Date]),&#xA;&#x9;[Profile Last Playback Date] = CONVERT(DATETIME, [Profile Last Playback Date]),&#xA;    [Profile First Playback Date For User Generated Plays] = CONVERT(DATETIME, [Profile First Playback Date For User Generated Plays]),&#xA;    [Profile Last Playback Date For User Generated Plays] = CONVERT(DATETIME, [Profile Last Playback Date For User Generated Plays]),&#xA;    [Deactivation Time] = CONVERT(DATETIME, [Deactivation Time]);&#xA;&#xA;&#xA;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          </DTS:ObjectData>
+        </DTS:Executable>
+      </DTS:Executables>
+    </DTS:Executable>
   </DTS:Executables>
   <DTS:PrecedenceConstraints>
     <DTS:PrecedenceConstraint
@@ -3846,6 +3875,14 @@
       DTS:LogicalAnd="True"
       DTS:ObjectName="Restrição"
       DTS:To="Package\Carga de Dados" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Restrição 1]"
+      DTS:CreationName=""
+      DTS:DTSID="{AFCA5409-5816-40FB-AD63-107BC3F533A1}"
+      DTS:From="Package\Carga de Dados"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Restrição 1"
+      DTS:To="Package\Transformando Dados" />
   </DTS:PrecedenceConstraints>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
 <!--Esta seção CDATA contém as informações de layout do pacote. A seção inclui informações como coordenadas (x,y), largura e altura.-->
@@ -3858,18 +3895,7 @@
     design-time-name="Package">
     <LayoutInfo>
       <GraphLayout
-        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph">
-        <NodeLayout
-          Size="143.2,41.6"
-          Id="Package\Limpar Dados"
-          TopLeft="179.166659547223,33.8000002686183" />
-        <AnnotationLayout
-          Text="Rotina utilizada para apagar todos os registros das tabelas, antes da carga de dados."
-          ParentId="Package"
-          FontInfo="{assembly:Null}"
-          Size="475.2,60"
-          Id="803942d3-049f-4593-80f0-a8d6bf1b976f"
-          TopLeft="361.666652295325,28.6000002272924" />
+        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="132.8,41.6"
           Id="Package\Carga de Dados\Clickstream"
@@ -3878,6 +3904,22 @@
           Size="115.2,41.6"
           Id="Package\Carga de Dados\Devices"
           TopLeft="181.533318299718,47.7333356200326" />
+        <NodeLayout
+          Size="108.8,41.6"
+          Id="Package\Carga de Dados\MyList"
+          TopLeft="23.1999912579857,88.4666692770852" />
+        <NodeLayout
+          Size="113.6,41.6"
+          Id="Package\Carga de Dados\Ratings"
+          TopLeft="180.699984999498,130.933336281247" />
+        <NodeLayout
+          Size="144,41.6"
+          Id="Package\Carga de Dados\SearchHistory"
+          TopLeft="22.3666579577662,203.733336859809" />
+        <NodeLayout
+          Size="148,41.6"
+          Id="Package\Carga de Dados\ViewingActivity"
+          TopLeft="175.69998519818,241.866670496199" />
         <EdgeLayout
           Id="Package\Carga de Dados.PrecedenceConstraints[Restrição]"
           TopLeft="141.466651699279,30.1333362812467">
@@ -3912,36 +3954,32 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="108.8,41.6"
-          Id="Package\Carga de Dados\MyList"
-          TopLeft="20.6999913573268,88.4666692770851" />
         <EdgeLayout
           Id="Package\Carga de Dados.PrecedenceConstraints[Restrição 1]"
           TopLeft="181.533318299718,74.1333356200326">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-52.0333269423913,29.5333336570525"
+              EndConnector="-49.5333270417323,29.5333336570526"
               Start="0,0"
-              End="-44.5333269423913,29.5333336570525">
+              End="-42.0333270417323,29.5333336570526">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="-22.0166634711957,0" />
+                    End="-20.7666635208661,0" />
                   <mssgle:CubicBezierSegment
-                    Point1="-22.0166634711957,0"
-                    Point2="-26.0166634711957,0"
-                    Point3="-26.0166634711957,4" />
+                    Point1="-20.7666635208661,0"
+                    Point2="-24.7666635208661,0"
+                    Point3="-24.7666635208661,4" />
                   <mssgle:LineSegment
-                    End="-26.0166634711957,25.5333336570525" />
+                    End="-24.7666635208661,25.5333336570526" />
                   <mssgle:CubicBezierSegment
-                    Point1="-26.0166634711957,25.5333336570525"
-                    Point2="-26.0166634711957,29.5333336570525"
-                    Point3="-30.0166634711957,29.5333336570525" />
+                    Point1="-24.7666635208661,25.5333336570526"
+                    Point2="-24.7666635208661,29.5333336570526"
+                    Point3="-28.7666635208661,29.5333336570526" />
                   <mssgle:LineSegment
-                    End="-44.5333269423913,29.5333336570525" />
+                    End="-42.0333270417323,29.5333336570526" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -3950,36 +3988,32 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="113.6,41.6"
-          Id="Package\Carga de Dados\Ratings"
-          TopLeft="180.699984999498,130.933336281247" />
         <EdgeLayout
           Id="Package\Carga de Dados.PrecedenceConstraints[Restrição 2]"
-          TopLeft="129.499991357327,114.866669277085">
+          TopLeft="131.999991257986,114.866669277085">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="51.1999936421715,36.8666670041615"
+              EndConnector="48.6999937415123,36.8666670041618"
               Start="0,0"
-              End="43.6999936421715,36.8666670041615">
+              End="41.1999937415123,36.8666670041618">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="17.6177750933613,0" />
+                    End="16.5622195797496,0" />
                   <mssgle:CubicBezierSegment
-                    Point1="17.6177750933613,0"
-                    Point2="21.6177750933613,0"
-                    Point3="21.6177750933613,4" />
+                    Point1="16.5622195797496,0"
+                    Point2="20.5622195797496,0"
+                    Point3="20.5622195797496,4" />
                   <mssgle:LineSegment
-                    End="21.6177750933613,32.8666670041615" />
+                    End="20.5622195797496,32.8666670041618" />
                   <mssgle:CubicBezierSegment
-                    Point1="21.6177750933613,32.8666670041615"
-                    Point2="21.6177750933613,36.8666670041615"
-                    Point3="25.6177750933613,36.8666670041615" />
+                    Point1="20.5622195797496,32.8666670041618"
+                    Point2="20.5622195797496,36.8666670041618"
+                    Point3="24.5622195797496,36.8666670041618" />
                   <mssgle:LineSegment
-                    End="43.6999936421715,36.8666670041615" />
+                    End="41.1999937415123,36.8666670041618" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -3988,10 +4022,6 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="144,41.6"
-          Id="Package\Carga de Dados\SearchHistory"
-          TopLeft="22.3666579577662,203.733336859809" />
         <EdgeLayout
           Id="Package\Carga de Dados.PrecedenceConstraints[Restrição 3]"
           TopLeft="237.499984999498,172.533336281247">
@@ -4026,10 +4056,6 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="148,41.6"
-          Id="Package\Carga de Dados\ViewingActivity"
-          TopLeft="175.69998519818,241.866670496199" />
         <EdgeLayout
           Id="Package\Carga de Dados.PrecedenceConstraints[Restrição 4]"
           TopLeft="166.366657957766,219.366670496199">
@@ -4065,32 +4091,88 @@
           Size="354.4,381.6"
           Id="Package\Carga de Dados"
           TopLeft="196.666658851836,195.866668223275" />
+        <NodeLayout
+          Size="143.2,41.6"
+          Id="Package\Limpar Dados"
+          TopLeft="178.333326247003,33.8000002686183" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restrição]"
-          TopLeft="250.766659547223,75.4000002686183">
+          TopLeft="249.933326247003,75.4000002686183">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="123.099999304612,120.466667954657"
+              EndConnector="123.933332604833,120.466667954657"
               Start="0,0"
-              End="123.099999304612,112.966667954657">
+              End="123.933332604833,112.966667954657">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,56.2333339773284" />
+                    End="0,56.2333339773283" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,56.2333339773284"
-                    Point2="0,60.2333339773284"
-                    Point3="4,60.2333339773284" />
+                    Point1="0,56.2333339773283"
+                    Point2="0,60.2333339773283"
+                    Point3="4,60.2333339773283" />
                   <mssgle:LineSegment
-                    End="119.099999304612,60.2333339773284" />
+                    End="119.933332604833,60.2333339773283" />
                   <mssgle:CubicBezierSegment
-                    Point1="119.099999304612,60.2333339773284"
-                    Point2="123.099999304612,60.2333339773284"
-                    Point3="123.099999304612,64.2333339773284" />
+                    Point1="119.933332604833,60.2333339773283"
+                    Point2="123.933332604833,60.2333339773283"
+                    Point3="123.933332604833,64.2333339773283" />
                   <mssgle:LineSegment
-                    End="123.099999304612,112.966667954657" />
+                    End="123.933332604833,112.966667954657" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <AnnotationLayout
+          Text="Rotina utilizada para apagar todos os registros das tabelas, antes da carga de dados."
+          ParentId="Package"
+          FontInfo="{assembly:Null}"
+          Size="475.2,40"
+          Id="803942d3-049f-4593-80f0-a8d6bf1b976f"
+          TopLeft="361.666652295325,28.6000002272924" />
+        <NodeLayout
+          Size="115.2,41.6"
+          Id="Package\Transformando Dados\Devices"
+          TopLeft="88.1999672174464,38.8666691944333" />
+        <ContainerLayout
+          HeaderHeight="43"
+          IsExpanded="True"
+          PanelSize="339.2,244"
+          Size="339.2,287.2"
+          Id="Package\Transformando Dados"
+          TopLeft="664.166640275056,197.600001570384" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Restrição 1]"
+          TopLeft="551.066658851836,386.666668223275">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="113.09998142322,-45.4666666528911"
+              Start="0,0"
+              End="105.59998142322,-45.4666666528911">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="52.5499907116101,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="52.5499907116101,0"
+                    Point2="56.5499907116101,0"
+                    Point3="56.5499907116101,-4" />
+                  <mssgle:LineSegment
+                    End="56.5499907116101,-41.4666666528911" />
+                  <mssgle:CubicBezierSegment
+                    Point1="56.5499907116101,-41.4666666528911"
+                    Point2="56.5499907116101,-45.4666666528911"
+                    Point3="60.5499907116101,-45.4666666528911" />
+                  <mssgle:LineSegment
+                    End="105.59998142322,-45.4666666528911" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -4106,7 +4188,7 @@
     design-time-name="Package\Carga de Dados\Clickstream">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="154.4,41.6"
           Id="Package\Carga de Dados\Clickstream\csv_Clickstream"
@@ -4134,7 +4216,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -4161,37 +4245,37 @@
         <NodeLayout
           Size="136.8,41.6"
           Id="Package\Carga de Dados\Devices\csv_Devices"
-          TopLeft="349,65" />
+          TopLeft="349.833333300219,68.4666666942173" />
         <NodeLayout
           Size="115.2,41.6"
           Id="Package\Carga de Dados\Devices\Devices"
-          TopLeft="409,269" />
+          TopLeft="374.999985098839,235.733335206774" />
         <EdgeLayout
           Id="Package\Carga de Dados\Devices.Paths[Saída de Origem de Arquivo Simples]"
-          TopLeft="417.4,106.6">
+          TopLeft="418.233333300219,110.066666694217">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="49.2000000000002,162.4"
+              EndConnector="14.3666517986202,125.666668512556"
               Start="0,0"
-              End="49.2000000000002,154.9">
+              End="14.3666517986202,118.166668512556">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,77.2" />
+                    End="0,58.8333342562782" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,77.2"
-                    Point2="0,81.2"
-                    Point3="4,81.2" />
+                    Point1="0,58.8333342562782"
+                    Point2="0,62.8333342562782"
+                    Point3="4,62.8333342562782" />
                   <mssgle:LineSegment
-                    End="45.2000000000002,81.2" />
+                    End="10.3666517986202,62.8333342562782" />
                   <mssgle:CubicBezierSegment
-                    Point1="45.2000000000002,81.2"
-                    Point2="49.2000000000002,81.2"
-                    Point3="49.2000000000002,85.2" />
+                    Point1="10.3666517986202,62.8333342562782"
+                    Point2="14.3666517986202,62.8333342562782"
+                    Point3="14.3666517986202,66.8333342562782" />
                   <mssgle:LineSegment
-                    End="49.2000000000002,154.9" />
+                    End="14.3666517986202,118.166668512556" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -4203,19 +4287,6 @@
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Carga de Dados\Devices\Devices">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\Carga de Dados\MyList">
     <LayoutInfo>
@@ -4224,37 +4295,25 @@
         <NodeLayout
           Size="129.6,41.6"
           Id="Package\Carga de Dados\MyList\csv_MyList"
-          TopLeft="406,127" />
+          TopLeft="518,91" />
         <NodeLayout
           Size="108.8,41.6"
           Id="Package\Carga de Dados\MyList\MyList"
-          TopLeft="466,370" />
+          TopLeft="532,251" />
         <EdgeLayout
           Id="Package\Carga de Dados\MyList.Paths[Saída de Origem de Arquivo Simples]"
-          TopLeft="470.8,168.6">
+          TopLeft="584.6,132.6">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="49.6000000000003,201.4"
+              EndConnector="0,118.4"
               Start="0,0"
-              End="49.6000000000003,193.9">
+              End="0,110.9">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,96.7" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,96.7"
-                    Point2="0,100.7"
-                    Point3="4,100.7" />
-                  <mssgle:LineSegment
-                    End="45.6000000000003,100.7" />
-                  <mssgle:CubicBezierSegment
-                    Point1="45.6000000000003,100.7"
-                    Point2="49.6000000000003,100.7"
-                    Point3="49.6000000000003,104.7" />
-                  <mssgle:LineSegment
-                    End="49.6000000000003,193.9" />
+                    End="0,110.9" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -4266,24 +4325,11 @@
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Carga de Dados\MyList\MyList">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\Carga de Dados\Ratings">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="135.2,41.6"
           Id="Package\Carga de Dados\Ratings\csv_Ratings"
@@ -4323,7 +4369,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -4346,15 +4394,15 @@
     design-time-name="Package\Carga de Dados\SearchHistory">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="164.8,41.6"
-          Id="Package\Carga de Dados\SearchHistory\csv_SearchHistory"
-          TopLeft="473,122" />
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="144,41.6"
           Id="Package\Carga de Dados\SearchHistory\SearchHistory"
           TopLeft="568,291" />
+        <NodeLayout
+          Size="164.8,41.6"
+          Id="Package\Carga de Dados\SearchHistory\csv_SearchHistory"
+          TopLeft="473,122" />
         <EdgeLayout
           Id="Package\Carga de Dados\SearchHistory.Paths[Saída de Origem de Arquivo Simples]"
           TopLeft="555.4,163.6">
@@ -4386,7 +4434,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -4409,15 +4459,15 @@
     design-time-name="Package\Carga de Dados\ViewingActivity">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="169.6,41.6"
-          Id="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity"
-          TopLeft="553,140" />
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="148,41.6"
           Id="Package\Carga de Dados\ViewingActivity\ViewingActivity"
           TopLeft="582,299" />
+        <NodeLayout
+          Size="169.6,41.6"
+          Id="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity"
+          TopLeft="553,140" />
         <EdgeLayout
           Id="Package\Carga de Dados\ViewingActivity.Paths[Saída de Origem de Arquivo Simples]"
           TopLeft="637.8,181.6">
@@ -4449,7 +4499,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -4457,6 +4509,32 @@
   </TaskHost>
   <PipelineComponentMetadata
     design-time-name="Package\Carga de Dados\ViewingActivity\ViewingActivity">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Carga de Dados\Devices\Devices">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Carga de Dados\MyList\MyList">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
