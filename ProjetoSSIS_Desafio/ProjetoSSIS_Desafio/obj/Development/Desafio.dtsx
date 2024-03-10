@@ -11,8 +11,8 @@
   DTS:LocaleID="1046"
   DTS:ObjectName="Desafio"
   DTS:PackageType="5"
-  DTS:VersionBuild="73"
-  DTS:VersionGUID="{0930DEDD-A5A9-45C3-8242-1281886657E6}">
+  DTS:VersionBuild="90"
+  DTS:VersionGUID="{84F84B7C-F1E0-4593-96AE-AD9C0F610159}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -243,7 +243,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Profile Name"
-              DTS:DTSID="{60E3A176-ECAF-49A3-969E-EF04B3DCF78C}"
+              DTS:DTSID="{E64918F4-15FD-4AD9-A772-3B0653402A72}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -252,7 +252,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Title Name"
-              DTS:DTSID="{4163D9C1-BFD9-46E9-B58B-F6ABC85E9E17}"
+              DTS:DTSID="{6BD4902F-EF13-4B22-B3A7-89D1643C0A1C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -261,7 +261,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Country"
-              DTS:DTSID="{B0266622-1B85-4D78-9608-60D340697562}"
+              DTS:DTSID="{83A5A28F-9909-4C99-83E9-766CDDDFE3B9}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -270,7 +270,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Utc Title Add Date"
-              DTS:DTSID="{1A95C744-F402-4685-A51F-85034722201B}"
+              DTS:DTSID="{E7E1EC6D-D098-4C92-B651-280082AC53C9}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -490,7 +490,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Profile Name"
-              DTS:DTSID="{A688A88C-881B-487E-A739-9A19786035C6}"
+              DTS:DTSID="{8D6C42BB-DDAA-4349-96EB-025E99EA0EAA}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -498,7 +498,7 @@
               DTS:DataType="64"
               DTS:TextQualified="True"
               DTS:ObjectName="Start Time"
-              DTS:DTSID="{62EF6B43-81C0-4EF9-8220-80E0BC4F71A3}"
+              DTS:DTSID="{00B64CA3-4EBF-42B4-AB13-8DE70B896E8D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -507,7 +507,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Duration"
-              DTS:DTSID="{EEDE8A2B-580F-4AB1-9733-3FE87EC1657F}"
+              DTS:DTSID="{CD5776B8-0EDB-4511-BBCC-D470E619254E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -516,7 +516,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Attributes"
-              DTS:DTSID="{3F6B9F45-8EA3-43B6-840D-9AC44FDEE997}"
+              DTS:DTSID="{3C235C4A-EA04-4C8D-8C80-963F837C8328}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -525,7 +525,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Title"
-              DTS:DTSID="{886F1ECA-67C3-40AD-8FF0-8E6CD6EF58E6}"
+              DTS:DTSID="{E1942EE5-757C-4836-AE57-952A70CA5331}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -534,7 +534,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Supplemental Video Type"
-              DTS:DTSID="{470DCD67-9AC1-4CE9-AB2D-286FF0D0C183}"
+              DTS:DTSID="{46F4E839-962E-4FB8-9BA7-D43135721FA5}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -543,7 +543,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Device Type"
-              DTS:DTSID="{8CAE29A4-3719-41C4-BA47-9BAFD70339B3}"
+              DTS:DTSID="{FD074273-0E8F-4E87-8D1E-6147F08F20D8}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -552,7 +552,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Bookmark"
-              DTS:DTSID="{461483F0-0E5C-4819-B6D8-3DB6D0AD6450}"
+              DTS:DTSID="{5B46CCB4-6D40-4C4F-8CA8-41DB2900EA3A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -561,7 +561,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Latest Bookmark"
-              DTS:DTSID="{B89DFCEA-B929-4A02-A129-5ED23FD8630C}"
+              DTS:DTSID="{CE9FC166-61F1-403B-93F9-16B85062B9CE}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -570,7 +570,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Country"
-              DTS:DTSID="{60CF4FF1-4921-4BC0-9615-B783354E328F}"
+              DTS:DTSID="{1E8E5F9E-6D2C-4A84-B1F6-97E1DE5A264C}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -589,7 +589,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA6aJ8m0IHWUOOPtYJ3TtnCwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAC6GV8VHXeaZIMpcfzp3N7XNUo+Xc5xal3Ip0ewfskwIQAAAAAOgAAAAAIAACAAAABCa2wNwJdnETRf6936qmzfX6Vaz8P0Kk39XFNhIL87tBAAAABL7TuZQpWuGL09Z3gKLrmRQAAAANozYgmWMmQ4vicXhhLIXfquzMC3q2cy7zs/VzHaHmMaV9xkrEQiIcGFksbJSjKm+aEom2joFQddEIOFt06Isoo</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA6aJ8m0IHWUOOPtYJ3TtnCwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAtivc7fgqGvq54+d28+SF3HlbtlPxFhG45FabPze6BmQAAAAAOgAAAAAIAACAAAABpTvW5njm6kNtws79car7hEOmNh40glWvWT12itGPrrRAAAABwsaYEL4uy6LMt3F2DBrctQAAAAAlAwqZVtk9tXvkKAwT3NTj8OdG+abRc1I43ol4SxJ2LsjSwmQw5b0hJsQqYKizgJR6W1gwlrBB4I36Cb8V4524</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -3176,12 +3176,12 @@
               version="1">
               <components>
                 <component
-                  refId="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity"
+                  refId="Package\Carga de Dados\ViewingActivity\csv_WiewActivity"
                   componentClassID="Microsoft.FlatFileSource"
                   contactInfo="Origem de Arquivo Simples;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos os Direitos Reservados; http://www.microsoft.com/sql/support;1"
                   description="Origem de Arquivo Simples"
                   localeId="1046"
-                  name="csv_ViewingActivity"
+                  name="csv_WiewActivity"
                   usesDispositions="true"
                   version="1">
                   <properties>
@@ -3196,25 +3196,25 @@
                   </properties>
                   <connections>
                     <connection
-                      refId="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity.Connections[FlatFileConnection]"
+                      refId="Package\Carga de Dados\ViewingActivity\csv_WiewActivity.Connections[FlatFileConnection]"
                       connectionManagerID="Package.ConnectionManagers[csv_ViewingActivity]"
                       connectionManagerRefId="Package.ConnectionManagers[csv_ViewingActivity]"
                       name="FlatFileConnection" />
                   </connections>
                   <outputs>
                     <output
-                      refId="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity.Outputs[Saída de Origem de Arquivo Simples]"
+                      refId="Package\Carga de Dados\ViewingActivity\csv_WiewActivity.Outputs[Saída de Origem de Arquivo Simples]"
                       name="Saída de Origem de Arquivo Simples">
                       <outputColumns>
                         <outputColumn
-                          refId="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity.Outputs[Saída de Origem de Arquivo Simples].Columns[Profile Name]"
+                          refId="Package\Carga de Dados\ViewingActivity\csv_WiewActivity.Outputs[Saída de Origem de Arquivo Simples].Columns[Profile Name]"
                           codePage="1252"
                           dataType="str"
                           errorOrTruncationOperation="Conversão"
                           errorRowDisposition="FailComponent"
-                          externalMetadataColumnId="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Profile Name]"
+                          externalMetadataColumnId="Package\Carga de Dados\ViewingActivity\csv_WiewActivity.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Profile Name]"
                           length="50"
-                          lineageId="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity.Outputs[Saída de Origem de Arquivo Simples].Columns[Profile Name]"
+                          lineageId="Package\Carga de Dados\ViewingActivity\csv_WiewActivity.Outputs[Saída de Origem de Arquivo Simples].Columns[Profile Name]"
                           name="Profile Name"
                           truncationRowDisposition="FailComponent">
                           <properties>
@@ -3229,12 +3229,12 @@
                           </properties>
                         </outputColumn>
                         <outputColumn
-                          refId="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity.Outputs[Saída de Origem de Arquivo Simples].Columns[Start Time]"
+                          refId="Package\Carga de Dados\ViewingActivity\csv_WiewActivity.Outputs[Saída de Origem de Arquivo Simples].Columns[Start Time]"
                           dataType="dateTime"
                           errorOrTruncationOperation="Conversão"
                           errorRowDisposition="FailComponent"
-                          externalMetadataColumnId="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Start Time]"
-                          lineageId="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity.Outputs[Saída de Origem de Arquivo Simples].Columns[Start Time]"
+                          externalMetadataColumnId="Package\Carga de Dados\ViewingActivity\csv_WiewActivity.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Start Time]"
+                          lineageId="Package\Carga de Dados\ViewingActivity\csv_WiewActivity.Outputs[Saída de Origem de Arquivo Simples].Columns[Start Time]"
                           name="Start Time"
                           truncationRowDisposition="FailComponent">
                           <properties>
@@ -3249,14 +3249,14 @@
                           </properties>
                         </outputColumn>
                         <outputColumn
-                          refId="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity.Outputs[Saída de Origem de Arquivo Simples].Columns[Duration]"
+                          refId="Package\Carga de Dados\ViewingActivity\csv_WiewActivity.Outputs[Saída de Origem de Arquivo Simples].Columns[Duration]"
                           codePage="1252"
                           dataType="str"
                           errorOrTruncationOperation="Conversão"
                           errorRowDisposition="FailComponent"
-                          externalMetadataColumnId="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Duration]"
+                          externalMetadataColumnId="Package\Carga de Dados\ViewingActivity\csv_WiewActivity.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Duration]"
                           length="50"
-                          lineageId="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity.Outputs[Saída de Origem de Arquivo Simples].Columns[Duration]"
+                          lineageId="Package\Carga de Dados\ViewingActivity\csv_WiewActivity.Outputs[Saída de Origem de Arquivo Simples].Columns[Duration]"
                           name="Duration"
                           truncationRowDisposition="FailComponent">
                           <properties>
@@ -3271,14 +3271,14 @@
                           </properties>
                         </outputColumn>
                         <outputColumn
-                          refId="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity.Outputs[Saída de Origem de Arquivo Simples].Columns[Attributes]"
+                          refId="Package\Carga de Dados\ViewingActivity\csv_WiewActivity.Outputs[Saída de Origem de Arquivo Simples].Columns[Attributes]"
                           codePage="1252"
                           dataType="str"
                           errorOrTruncationOperation="Conversão"
                           errorRowDisposition="FailComponent"
-                          externalMetadataColumnId="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Attributes]"
+                          externalMetadataColumnId="Package\Carga de Dados\ViewingActivity\csv_WiewActivity.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Attributes]"
                           length="200"
-                          lineageId="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity.Outputs[Saída de Origem de Arquivo Simples].Columns[Attributes]"
+                          lineageId="Package\Carga de Dados\ViewingActivity\csv_WiewActivity.Outputs[Saída de Origem de Arquivo Simples].Columns[Attributes]"
                           name="Attributes"
                           truncationRowDisposition="FailComponent">
                           <properties>
@@ -3293,14 +3293,14 @@
                           </properties>
                         </outputColumn>
                         <outputColumn
-                          refId="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity.Outputs[Saída de Origem de Arquivo Simples].Columns[Title]"
+                          refId="Package\Carga de Dados\ViewingActivity\csv_WiewActivity.Outputs[Saída de Origem de Arquivo Simples].Columns[Title]"
                           codePage="1252"
                           dataType="str"
                           errorOrTruncationOperation="Conversão"
                           errorRowDisposition="FailComponent"
-                          externalMetadataColumnId="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Title]"
+                          externalMetadataColumnId="Package\Carga de Dados\ViewingActivity\csv_WiewActivity.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Title]"
                           length="200"
-                          lineageId="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity.Outputs[Saída de Origem de Arquivo Simples].Columns[Title]"
+                          lineageId="Package\Carga de Dados\ViewingActivity\csv_WiewActivity.Outputs[Saída de Origem de Arquivo Simples].Columns[Title]"
                           name="Title"
                           truncationRowDisposition="FailComponent">
                           <properties>
@@ -3315,14 +3315,14 @@
                           </properties>
                         </outputColumn>
                         <outputColumn
-                          refId="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity.Outputs[Saída de Origem de Arquivo Simples].Columns[Supplemental Video Type]"
+                          refId="Package\Carga de Dados\ViewingActivity\csv_WiewActivity.Outputs[Saída de Origem de Arquivo Simples].Columns[Supplemental Video Type]"
                           codePage="1252"
                           dataType="str"
                           errorOrTruncationOperation="Conversão"
                           errorRowDisposition="FailComponent"
-                          externalMetadataColumnId="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Supplemental Video Type]"
+                          externalMetadataColumnId="Package\Carga de Dados\ViewingActivity\csv_WiewActivity.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Supplemental Video Type]"
                           length="200"
-                          lineageId="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity.Outputs[Saída de Origem de Arquivo Simples].Columns[Supplemental Video Type]"
+                          lineageId="Package\Carga de Dados\ViewingActivity\csv_WiewActivity.Outputs[Saída de Origem de Arquivo Simples].Columns[Supplemental Video Type]"
                           name="Supplemental Video Type"
                           truncationRowDisposition="FailComponent">
                           <properties>
@@ -3337,14 +3337,14 @@
                           </properties>
                         </outputColumn>
                         <outputColumn
-                          refId="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity.Outputs[Saída de Origem de Arquivo Simples].Columns[Device Type]"
+                          refId="Package\Carga de Dados\ViewingActivity\csv_WiewActivity.Outputs[Saída de Origem de Arquivo Simples].Columns[Device Type]"
                           codePage="1252"
                           dataType="str"
                           errorOrTruncationOperation="Conversão"
                           errorRowDisposition="FailComponent"
-                          externalMetadataColumnId="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Device Type]"
+                          externalMetadataColumnId="Package\Carga de Dados\ViewingActivity\csv_WiewActivity.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Device Type]"
                           length="200"
-                          lineageId="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity.Outputs[Saída de Origem de Arquivo Simples].Columns[Device Type]"
+                          lineageId="Package\Carga de Dados\ViewingActivity\csv_WiewActivity.Outputs[Saída de Origem de Arquivo Simples].Columns[Device Type]"
                           name="Device Type"
                           truncationRowDisposition="FailComponent">
                           <properties>
@@ -3359,14 +3359,14 @@
                           </properties>
                         </outputColumn>
                         <outputColumn
-                          refId="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity.Outputs[Saída de Origem de Arquivo Simples].Columns[Bookmark]"
+                          refId="Package\Carga de Dados\ViewingActivity\csv_WiewActivity.Outputs[Saída de Origem de Arquivo Simples].Columns[Bookmark]"
                           codePage="1252"
                           dataType="str"
                           errorOrTruncationOperation="Conversão"
                           errorRowDisposition="FailComponent"
-                          externalMetadataColumnId="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Bookmark]"
+                          externalMetadataColumnId="Package\Carga de Dados\ViewingActivity\csv_WiewActivity.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Bookmark]"
                           length="200"
-                          lineageId="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity.Outputs[Saída de Origem de Arquivo Simples].Columns[Bookmark]"
+                          lineageId="Package\Carga de Dados\ViewingActivity\csv_WiewActivity.Outputs[Saída de Origem de Arquivo Simples].Columns[Bookmark]"
                           name="Bookmark"
                           truncationRowDisposition="FailComponent">
                           <properties>
@@ -3381,14 +3381,14 @@
                           </properties>
                         </outputColumn>
                         <outputColumn
-                          refId="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity.Outputs[Saída de Origem de Arquivo Simples].Columns[Latest Bookmark]"
+                          refId="Package\Carga de Dados\ViewingActivity\csv_WiewActivity.Outputs[Saída de Origem de Arquivo Simples].Columns[Latest Bookmark]"
                           codePage="1252"
                           dataType="str"
                           errorOrTruncationOperation="Conversão"
                           errorRowDisposition="FailComponent"
-                          externalMetadataColumnId="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Latest Bookmark]"
+                          externalMetadataColumnId="Package\Carga de Dados\ViewingActivity\csv_WiewActivity.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Latest Bookmark]"
                           length="50"
-                          lineageId="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity.Outputs[Saída de Origem de Arquivo Simples].Columns[Latest Bookmark]"
+                          lineageId="Package\Carga de Dados\ViewingActivity\csv_WiewActivity.Outputs[Saída de Origem de Arquivo Simples].Columns[Latest Bookmark]"
                           name="Latest Bookmark"
                           truncationRowDisposition="FailComponent">
                           <properties>
@@ -3403,14 +3403,14 @@
                           </properties>
                         </outputColumn>
                         <outputColumn
-                          refId="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity.Outputs[Saída de Origem de Arquivo Simples].Columns[Country]"
+                          refId="Package\Carga de Dados\ViewingActivity\csv_WiewActivity.Outputs[Saída de Origem de Arquivo Simples].Columns[Country]"
                           codePage="1252"
                           dataType="str"
                           errorOrTruncationOperation="Conversão"
                           errorRowDisposition="FailComponent"
-                          externalMetadataColumnId="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Country]"
+                          externalMetadataColumnId="Package\Carga de Dados\ViewingActivity\csv_WiewActivity.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Country]"
                           length="200"
-                          lineageId="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity.Outputs[Saída de Origem de Arquivo Simples].Columns[Country]"
+                          lineageId="Package\Carga de Dados\ViewingActivity\csv_WiewActivity.Outputs[Saída de Origem de Arquivo Simples].Columns[Country]"
                           name="Country"
                           truncationRowDisposition="FailComponent">
                           <properties>
@@ -3428,59 +3428,59 @@
                       <externalMetadataColumns
                         isUsed="True">
                         <externalMetadataColumn
-                          refId="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Profile Name]"
+                          refId="Package\Carga de Dados\ViewingActivity\csv_WiewActivity.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Profile Name]"
                           codePage="1252"
                           dataType="str"
                           length="50"
                           name="Profile Name" />
                         <externalMetadataColumn
-                          refId="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Start Time]"
+                          refId="Package\Carga de Dados\ViewingActivity\csv_WiewActivity.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Start Time]"
                           dataType="dateTime"
                           name="Start Time" />
                         <externalMetadataColumn
-                          refId="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Duration]"
+                          refId="Package\Carga de Dados\ViewingActivity\csv_WiewActivity.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Duration]"
                           codePage="1252"
                           dataType="str"
                           length="50"
                           name="Duration" />
                         <externalMetadataColumn
-                          refId="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Attributes]"
+                          refId="Package\Carga de Dados\ViewingActivity\csv_WiewActivity.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Attributes]"
                           codePage="1252"
                           dataType="str"
                           length="200"
                           name="Attributes" />
                         <externalMetadataColumn
-                          refId="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Title]"
+                          refId="Package\Carga de Dados\ViewingActivity\csv_WiewActivity.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Title]"
                           codePage="1252"
                           dataType="str"
                           length="200"
                           name="Title" />
                         <externalMetadataColumn
-                          refId="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Supplemental Video Type]"
+                          refId="Package\Carga de Dados\ViewingActivity\csv_WiewActivity.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Supplemental Video Type]"
                           codePage="1252"
                           dataType="str"
                           length="200"
                           name="Supplemental Video Type" />
                         <externalMetadataColumn
-                          refId="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Device Type]"
+                          refId="Package\Carga de Dados\ViewingActivity\csv_WiewActivity.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Device Type]"
                           codePage="1252"
                           dataType="str"
                           length="200"
                           name="Device Type" />
                         <externalMetadataColumn
-                          refId="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Bookmark]"
+                          refId="Package\Carga de Dados\ViewingActivity\csv_WiewActivity.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Bookmark]"
                           codePage="1252"
                           dataType="str"
                           length="200"
                           name="Bookmark" />
                         <externalMetadataColumn
-                          refId="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Latest Bookmark]"
+                          refId="Package\Carga de Dados\ViewingActivity\csv_WiewActivity.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Latest Bookmark]"
                           codePage="1252"
                           dataType="str"
                           length="50"
                           name="Latest Bookmark" />
                         <externalMetadataColumn
-                          refId="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Country]"
+                          refId="Package\Carga de Dados\ViewingActivity\csv_WiewActivity.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Country]"
                           codePage="1252"
                           dataType="str"
                           length="200"
@@ -3488,27 +3488,27 @@
                       </externalMetadataColumns>
                     </output>
                     <output
-                      refId="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity.Outputs[Saída de Erro de Origem de Arquivo Simples]"
+                      refId="Package\Carga de Dados\ViewingActivity\csv_WiewActivity.Outputs[Saída de Erro de Origem de Arquivo Simples]"
                       isErrorOut="true"
                       name="Saída de Erro de Origem de Arquivo Simples">
                       <outputColumns>
                         <outputColumn
-                          refId="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity.Outputs[Saída de Erro de Origem de Arquivo Simples].Columns[Coluna de Saída de Erro de Origem de Arquivo Simples]"
+                          refId="Package\Carga de Dados\ViewingActivity\csv_WiewActivity.Outputs[Saída de Erro de Origem de Arquivo Simples].Columns[Coluna de Saída de Erro de Origem de Arquivo Simples]"
                           codePage="1252"
                           dataType="text"
                           description="Coluna de Saída de Erro de Origem de Arquivo Simples"
-                          lineageId="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity.Outputs[Saída de Erro de Origem de Arquivo Simples].Columns[Coluna de Saída de Erro de Origem de Arquivo Simples]"
+                          lineageId="Package\Carga de Dados\ViewingActivity\csv_WiewActivity.Outputs[Saída de Erro de Origem de Arquivo Simples].Columns[Coluna de Saída de Erro de Origem de Arquivo Simples]"
                           name="Coluna de Saída de Erro de Origem de Arquivo Simples" />
                         <outputColumn
-                          refId="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity.Outputs[Saída de Erro de Origem de Arquivo Simples].Columns[ErrorCode]"
+                          refId="Package\Carga de Dados\ViewingActivity\csv_WiewActivity.Outputs[Saída de Erro de Origem de Arquivo Simples].Columns[ErrorCode]"
                           dataType="i4"
-                          lineageId="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity.Outputs[Saída de Erro de Origem de Arquivo Simples].Columns[ErrorCode]"
+                          lineageId="Package\Carga de Dados\ViewingActivity\csv_WiewActivity.Outputs[Saída de Erro de Origem de Arquivo Simples].Columns[ErrorCode]"
                           name="ErrorCode"
                           specialFlags="1" />
                         <outputColumn
-                          refId="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity.Outputs[Saída de Erro de Origem de Arquivo Simples].Columns[ErrorColumn]"
+                          refId="Package\Carga de Dados\ViewingActivity\csv_WiewActivity.Outputs[Saída de Erro de Origem de Arquivo Simples].Columns[ErrorColumn]"
                           dataType="i4"
-                          lineageId="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity.Outputs[Saída de Erro de Origem de Arquivo Simples].Columns[ErrorColumn]"
+                          lineageId="Package\Carga de Dados\ViewingActivity\csv_WiewActivity.Outputs[Saída de Erro de Origem de Arquivo Simples].Columns[ErrorColumn]"
                           name="ErrorColumn"
                           specialFlags="2" />
                       </outputColumns>
@@ -3595,13 +3595,13 @@
                           cachedLength="50"
                           cachedName="Profile Name"
                           externalMetadataColumnId="Package\Carga de Dados\ViewingActivity\ViewingActivity.Inputs[Entrada de Destino OLE DB].ExternalColumns[Profile Name]"
-                          lineageId="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity.Outputs[Saída de Origem de Arquivo Simples].Columns[Profile Name]" />
+                          lineageId="Package\Carga de Dados\ViewingActivity\csv_WiewActivity.Outputs[Saída de Origem de Arquivo Simples].Columns[Profile Name]" />
                         <inputColumn
                           refId="Package\Carga de Dados\ViewingActivity\ViewingActivity.Inputs[Entrada de Destino OLE DB].Columns[Start Time]"
                           cachedDataType="dateTime"
                           cachedName="Start Time"
                           externalMetadataColumnId="Package\Carga de Dados\ViewingActivity\ViewingActivity.Inputs[Entrada de Destino OLE DB].ExternalColumns[Start Time]"
-                          lineageId="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity.Outputs[Saída de Origem de Arquivo Simples].Columns[Start Time]" />
+                          lineageId="Package\Carga de Dados\ViewingActivity\csv_WiewActivity.Outputs[Saída de Origem de Arquivo Simples].Columns[Start Time]" />
                         <inputColumn
                           refId="Package\Carga de Dados\ViewingActivity\ViewingActivity.Inputs[Entrada de Destino OLE DB].Columns[Duration]"
                           cachedCodepage="1252"
@@ -3609,7 +3609,7 @@
                           cachedLength="50"
                           cachedName="Duration"
                           externalMetadataColumnId="Package\Carga de Dados\ViewingActivity\ViewingActivity.Inputs[Entrada de Destino OLE DB].ExternalColumns[Duration]"
-                          lineageId="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity.Outputs[Saída de Origem de Arquivo Simples].Columns[Duration]" />
+                          lineageId="Package\Carga de Dados\ViewingActivity\csv_WiewActivity.Outputs[Saída de Origem de Arquivo Simples].Columns[Duration]" />
                         <inputColumn
                           refId="Package\Carga de Dados\ViewingActivity\ViewingActivity.Inputs[Entrada de Destino OLE DB].Columns[Attributes]"
                           cachedCodepage="1252"
@@ -3617,7 +3617,7 @@
                           cachedLength="200"
                           cachedName="Attributes"
                           externalMetadataColumnId="Package\Carga de Dados\ViewingActivity\ViewingActivity.Inputs[Entrada de Destino OLE DB].ExternalColumns[Attributes]"
-                          lineageId="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity.Outputs[Saída de Origem de Arquivo Simples].Columns[Attributes]" />
+                          lineageId="Package\Carga de Dados\ViewingActivity\csv_WiewActivity.Outputs[Saída de Origem de Arquivo Simples].Columns[Attributes]" />
                         <inputColumn
                           refId="Package\Carga de Dados\ViewingActivity\ViewingActivity.Inputs[Entrada de Destino OLE DB].Columns[Title]"
                           cachedCodepage="1252"
@@ -3625,7 +3625,7 @@
                           cachedLength="200"
                           cachedName="Title"
                           externalMetadataColumnId="Package\Carga de Dados\ViewingActivity\ViewingActivity.Inputs[Entrada de Destino OLE DB].ExternalColumns[Title]"
-                          lineageId="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity.Outputs[Saída de Origem de Arquivo Simples].Columns[Title]" />
+                          lineageId="Package\Carga de Dados\ViewingActivity\csv_WiewActivity.Outputs[Saída de Origem de Arquivo Simples].Columns[Title]" />
                         <inputColumn
                           refId="Package\Carga de Dados\ViewingActivity\ViewingActivity.Inputs[Entrada de Destino OLE DB].Columns[Supplemental Video Type]"
                           cachedCodepage="1252"
@@ -3633,7 +3633,7 @@
                           cachedLength="200"
                           cachedName="Supplemental Video Type"
                           externalMetadataColumnId="Package\Carga de Dados\ViewingActivity\ViewingActivity.Inputs[Entrada de Destino OLE DB].ExternalColumns[Supplemental Video Type]"
-                          lineageId="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity.Outputs[Saída de Origem de Arquivo Simples].Columns[Supplemental Video Type]" />
+                          lineageId="Package\Carga de Dados\ViewingActivity\csv_WiewActivity.Outputs[Saída de Origem de Arquivo Simples].Columns[Supplemental Video Type]" />
                         <inputColumn
                           refId="Package\Carga de Dados\ViewingActivity\ViewingActivity.Inputs[Entrada de Destino OLE DB].Columns[Device Type]"
                           cachedCodepage="1252"
@@ -3641,7 +3641,7 @@
                           cachedLength="200"
                           cachedName="Device Type"
                           externalMetadataColumnId="Package\Carga de Dados\ViewingActivity\ViewingActivity.Inputs[Entrada de Destino OLE DB].ExternalColumns[Device Type]"
-                          lineageId="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity.Outputs[Saída de Origem de Arquivo Simples].Columns[Device Type]" />
+                          lineageId="Package\Carga de Dados\ViewingActivity\csv_WiewActivity.Outputs[Saída de Origem de Arquivo Simples].Columns[Device Type]" />
                         <inputColumn
                           refId="Package\Carga de Dados\ViewingActivity\ViewingActivity.Inputs[Entrada de Destino OLE DB].Columns[Bookmark]"
                           cachedCodepage="1252"
@@ -3649,7 +3649,7 @@
                           cachedLength="200"
                           cachedName="Bookmark"
                           externalMetadataColumnId="Package\Carga de Dados\ViewingActivity\ViewingActivity.Inputs[Entrada de Destino OLE DB].ExternalColumns[Bookmark]"
-                          lineageId="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity.Outputs[Saída de Origem de Arquivo Simples].Columns[Bookmark]" />
+                          lineageId="Package\Carga de Dados\ViewingActivity\csv_WiewActivity.Outputs[Saída de Origem de Arquivo Simples].Columns[Bookmark]" />
                         <inputColumn
                           refId="Package\Carga de Dados\ViewingActivity\ViewingActivity.Inputs[Entrada de Destino OLE DB].Columns[Latest Bookmark]"
                           cachedCodepage="1252"
@@ -3657,7 +3657,7 @@
                           cachedLength="50"
                           cachedName="Latest Bookmark"
                           externalMetadataColumnId="Package\Carga de Dados\ViewingActivity\ViewingActivity.Inputs[Entrada de Destino OLE DB].ExternalColumns[Latest Bookmark]"
-                          lineageId="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity.Outputs[Saída de Origem de Arquivo Simples].Columns[Latest Bookmark]" />
+                          lineageId="Package\Carga de Dados\ViewingActivity\csv_WiewActivity.Outputs[Saída de Origem de Arquivo Simples].Columns[Latest Bookmark]" />
                         <inputColumn
                           refId="Package\Carga de Dados\ViewingActivity\ViewingActivity.Inputs[Entrada de Destino OLE DB].Columns[Country]"
                           cachedCodepage="1252"
@@ -3665,7 +3665,7 @@
                           cachedLength="200"
                           cachedName="Country"
                           externalMetadataColumnId="Package\Carga de Dados\ViewingActivity\ViewingActivity.Inputs[Entrada de Destino OLE DB].ExternalColumns[Country]"
-                          lineageId="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity.Outputs[Saída de Origem de Arquivo Simples].Columns[Country]" />
+                          lineageId="Package\Carga de Dados\ViewingActivity\csv_WiewActivity.Outputs[Saída de Origem de Arquivo Simples].Columns[Country]" />
                       </inputColumns>
                       <externalMetadataColumns
                         isUsed="True">
@@ -3761,7 +3761,7 @@
                   refId="Package\Carga de Dados\ViewingActivity.Paths[Saída de Origem de Arquivo Simples]"
                   endId="Package\Carga de Dados\ViewingActivity\ViewingActivity.Inputs[Entrada de Destino OLE DB]"
                   name="Saída de Origem de Arquivo Simples"
-                  startId="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity.Outputs[Saída de Origem de Arquivo Simples]" />
+                  startId="Package\Carga de Dados\ViewingActivity\csv_WiewActivity.Outputs[Saída de Origem de Arquivo Simples]" />
               </paths>
             </pipeline>
           </DTS:ObjectData>
@@ -3837,7 +3837,34 @@
               SQLTask:SqlStatementSource="USE Desafio&#xA;&#xA;&#xA;--&gt; Convertendo os campos de Data&#xA;UPDATE DEVICES&#xA;SET [Acct First Playback Date] = CONVERT(DATETIME, [Acct First Playback Date]),&#xA;    [Acct Last Playback Date] = CONVERT(DATETIME, [Acct Last Playback Date]),&#xA;    [Acct First Playback Date For User Generated Plays] = CONVERT(DATETIME, [Acct First Playback Date For User Generated Plays]),&#xA;    [Acct Last Playback Date For User Generated Plays] = CONVERT(DATETIME, [Acct Last Playback Date For User Generated Plays]),&#xA;    [Profile First Playback Date] = CONVERT(DATETIME, [Profile First Playback Date]),&#xA;&#x9;[Profile Last Playback Date] = CONVERT(DATETIME, [Profile Last Playback Date]),&#xA;    [Profile First Playback Date For User Generated Plays] = CONVERT(DATETIME, [Profile First Playback Date For User Generated Plays]),&#xA;    [Profile Last Playback Date For User Generated Plays] = CONVERT(DATETIME, [Profile Last Playback Date For User Generated Plays]),&#xA;    [Deactivation Time] = CONVERT(DATETIME, [Deactivation Time]);&#xA;&#xA;&#xA;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
           </DTS:ObjectData>
         </DTS:Executable>
+        <DTS:Executable
+          DTS:refId="Package\Conversão de Dados\ViewingActivity"
+          DTS:CreationName="Microsoft.ExecuteSQLTask"
+          DTS:Description="Retirar Caracteres Especiais"
+          DTS:DTSID="{1BBBC793-E727-47AC-916A-26718D7FF448}"
+          DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="ViewingActivity"
+          DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+          DTS:ThreadHint="0">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <SQLTask:SqlTaskData
+              SQLTask:Connection="{052823DB-4CC6-4EE9-AE01-0A2975BDD1BC}"
+              SQLTask:SqlStatementSource="USE Desafio&#xA;GO&#xA;&#xA;UPDATE&#xA;    ViewingActivity&#xA;SET&#xA;    title = dbo.FNC_SubstituirCaracteresEspeciais(title)&#xA;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          </DTS:ObjectData>
+        </DTS:Executable>
       </DTS:Executables>
+      <DTS:PrecedenceConstraints>
+        <DTS:PrecedenceConstraint
+          DTS:refId="Package\Conversão de Dados.PrecedenceConstraints[Restrição]"
+          DTS:CreationName=""
+          DTS:DTSID="{D02A0EC2-BFB3-41D4-875C-C3C2D7C7C623}"
+          DTS:From="Package\Conversão de Dados\Devices"
+          DTS:LogicalAnd="True"
+          DTS:ObjectName="Restrição"
+          DTS:To="Package\Conversão de Dados\ViewingActivity" />
+      </DTS:PrecedenceConstraints>
     </DTS:Executable>
     <DTS:Executable
       DTS:refId="Package\Limpar Dados"
@@ -4053,20 +4080,20 @@
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="83.3333272404142,22.5"
+              EndConnector="83.3333272404138,22.5"
               Start="0,0"
-              End="83.3333272404142,15">
+              End="83.3333272404138,15">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="79.3333272404142,0" />
+                    End="79.3333272404138,0" />
                   <mssgle:CubicBezierSegment
-                    Point1="79.3333272404142,0"
-                    Point2="83.3333272404142,0"
-                    Point3="83.3333272404142,4" />
+                    Point1="79.3333272404138,0"
+                    Point2="83.3333272404138,0"
+                    Point3="83.3333272404138,4" />
                   <mssgle:LineSegment
-                    End="83.3333272404142,15" />
+                    End="83.3333272404138,15" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -4078,34 +4105,72 @@
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="True"
-          PanelSize="352,306.4"
-          Size="352,349.6"
+          PanelSize="352,337.6"
+          Size="352,380.8"
           Id="Package\Carga de Dados"
           TopLeft="149.166660739316,146.466667830679" />
+        <NodeLayout
+          Size="115.2,41.6"
+          Id="Package\Conversão de Dados\Devices"
+          TopLeft="38.1999692042677,38.8666691944334" />
+        <NodeLayout
+          Size="148,41.6"
+          Id="Package\Conversão de Dados\ViewingActivity"
+          TopLeft="56.8333038952628,139.066669545704" />
+        <EdgeLayout
+          Id="Package\Conversão de Dados.PrecedenceConstraints[Restrição]"
+          TopLeft="95.7999692042677,80.4666691944334">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="35.0333346909951,58.6000003512702"
+              Start="0,0"
+              End="35.0333346909951,51.1000003512702">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,25.3000001756351" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,25.3000001756351"
+                    Point2="0,29.3000001756351"
+                    Point3="4,29.3000001756351" />
+                  <mssgle:LineSegment
+                    End="31.0333346909951,29.3000001756351" />
+                  <mssgle:CubicBezierSegment
+                    Point1="31.0333346909951,29.3000001756351"
+                    Point2="35.0333346909951,29.3000001756351"
+                    Point3="35.0333346909951,33.3000001756351" />
+                  <mssgle:LineSegment
+                    End="35.0333346909951,51.1000003512702" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <ContainerLayout
+          HeaderHeight="43"
+          IsExpanded="True"
+          PanelSize="288.8,236"
+          Size="288.8,279.2"
+          Id="Package\Conversão de Dados"
+          TopLeft="684.166639480327,180.266668099298" />
         <NodeLayout
           Size="143.2,41.6"
           Id="Package\Limpar Dados"
           TopLeft="29.1666655076869,18.2000001446407" />
-        <NodeLayout
-          Size="115.2,41.6"
-          Id="Package\Conversão de Dados\Devices"
-          TopLeft="35.6999693036089,36.2666691737704" />
-        <ContainerLayout
-          HeaderHeight="43"
-          IsExpanded="True"
-          PanelSize="227.2,153.6"
-          Size="227.2,196.8"
-          Id="Package\Conversão de Dados"
-          TopLeft="684.166639480327,178.533334752189" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restrição]"
-          TopLeft="100.766665507687,59.8000001446406">
+          TopLeft="100.766665507687,59.8000001446407">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="224.39999523163,86.6666676860385"
+              EndConnector="224.399995231629,86.6666676860383"
               Start="0,0"
-              End="224.39999523163,79.1666676860385">
+              End="224.399995231629,79.1666676860383">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
@@ -4116,13 +4181,13 @@
                     Point2="0,43.3333338430192"
                     Point3="4,43.3333338430192" />
                   <mssgle:LineSegment
-                    End="220.39999523163,43.3333338430192" />
+                    End="220.399995231629,43.3333338430192" />
                   <mssgle:CubicBezierSegment
-                    Point1="220.39999523163,43.3333338430192"
-                    Point2="224.39999523163,43.3333338430192"
-                    Point3="224.39999523163,47.3333338430192" />
+                    Point1="220.399995231629,43.3333338430192"
+                    Point2="224.399995231629,43.3333338430192"
+                    Point3="224.399995231629,47.3333338430192" />
                   <mssgle:LineSegment
-                    End="224.39999523163,79.1666676860385" />
+                    End="224.399995231629,79.1666676860383" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -4133,30 +4198,30 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restrição 1]"
-          TopLeft="501.166660739316,321.266667830679">
+          TopLeft="501.166660739316,336.866667830679">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="182.999978741011,-44.3333330784901"
+              EndConnector="182.999978741011,-16.9999997313814"
               Start="0,0"
-              End="175.499978741011,-44.3333330784901">
+              End="175.499978741011,-16.9999997313814">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="87.4999893705054,0" />
+                    End="87.4999893705055,0" />
                   <mssgle:CubicBezierSegment
-                    Point1="87.4999893705054,0"
-                    Point2="91.4999893705054,0"
-                    Point3="91.4999893705054,-4" />
+                    Point1="87.4999893705055,0"
+                    Point2="91.4999893705055,0"
+                    Point3="91.4999893705055,-4" />
                   <mssgle:LineSegment
-                    End="91.4999893705054,-40.3333330784901" />
+                    End="91.4999893705055,-12.9999997313814" />
                   <mssgle:CubicBezierSegment
-                    Point1="91.4999893705054,-40.3333330784901"
-                    Point2="91.4999893705054,-44.3333330784901"
-                    Point3="95.4999893705054,-44.3333330784901" />
+                    Point1="91.4999893705055,-12.9999997313814"
+                    Point2="91.4999893705055,-16.9999997313814"
+                    Point3="95.4999893705055,-16.9999997313814" />
                   <mssgle:LineSegment
-                    End="175.499978741011,-44.3333330784901" />
+                    End="175.499978741011,-16.9999997313814" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -4297,55 +4362,52 @@
     design-time-name="Package\Carga de Dados\MyList">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
-        <NodeLayout
-          Size="108.8,41.6"
-          Id="Package\Carga de Dados\MyList\MyList"
-          TopLeft="532,251" />
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="129.6,41.6"
           Id="Package\Carga de Dados\MyList\csv_MyList"
-          TopLeft="518,91" />
+          TopLeft="519.83333330022,91.7333333471086" />
+        <NodeLayout
+          Size="108.8,41.6"
+          Id="Package\Carga de Dados\MyList\MyList"
+          TopLeft="542.499978442988,219.266668409242" />
         <EdgeLayout
           Id="Package\Carga de Dados\MyList.Paths[Saída de Origem de Arquivo Simples]"
-          TopLeft="584.6,132.6">
+          TopLeft="584.63333330022,133.333333347109">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,118.4"
+              EndConnector="12.2666451427682,85.933335062133"
               Start="0,0"
-              End="0,110.9">
+              End="12.2666451427682,78.433335062133">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,110.9" />
+                    End="0,38.9666675310665" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,38.9666675310665"
+                    Point2="0,42.9666675310665"
+                    Point3="4,42.9666675310665" />
+                  <mssgle:LineSegment
+                    End="8.2666451427682,42.9666675310665" />
+                  <mssgle:CubicBezierSegment
+                    Point1="8.2666451427682,42.9666675310665"
+                    Point2="12.2666451427682,42.9666675310665"
+                    Point3="12.2666451427682,46.9666675310665" />
+                  <mssgle:LineSegment
+                    End="12.2666451427682,78.433335062133" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Carga de Dados\MyList\MyList">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\Carga de Dados\Ratings">
     <LayoutInfo>
@@ -4482,39 +4544,39 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="169.6,41.6"
-          Id="Package\Carga de Dados\ViewingActivity\csv_ViewingActivity"
-          TopLeft="553,140" />
+          Size="158.4,41.6"
+          Id="Package\Carga de Dados\ViewingActivity\csv_WiewActivity"
+          TopLeft="565,112" />
         <NodeLayout
           Size="148,41.6"
           Id="Package\Carga de Dados\ViewingActivity\ViewingActivity"
-          TopLeft="584.16664345397,264.333335434066" />
+          TopLeft="581,268" />
         <EdgeLayout
           Id="Package\Carga de Dados\ViewingActivity.Paths[Saída de Origem de Arquivo Simples]"
-          TopLeft="637.8,181.6">
+          TopLeft="644.2,153.6">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="20.3666434539699,82.733335434066"
+              EndConnector="10.8,114.4"
               Start="0,0"
-              End="20.3666434539699,75.233335434066">
+              End="10.8,106.9">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,37.366667717033" />
+                    End="0,53.2" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,37.366667717033"
-                    Point2="0,41.366667717033"
-                    Point3="4,41.366667717033" />
+                    Point1="0,53.2"
+                    Point2="0,57.2"
+                    Point3="4,57.2" />
                   <mssgle:LineSegment
-                    End="16.3666434539699,41.366667717033" />
+                    End="6.79999999999995,57.2" />
                   <mssgle:CubicBezierSegment
-                    Point1="16.3666434539699,41.366667717033"
-                    Point2="20.3666434539699,41.366667717033"
-                    Point3="20.3666434539699,45.366667717033" />
+                    Point1="6.79999999999995,57.2"
+                    Point2="10.8,57.2"
+                    Point3="10.8,61.2" />
                   <mssgle:LineSegment
-                    End="20.3666434539699,75.233335434066" />
+                    End="10.8,106.9" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -4526,6 +4588,19 @@
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Carga de Dados\MyList\MyList">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Carga de Dados\ViewingActivity\ViewingActivity">
     <Properties>
