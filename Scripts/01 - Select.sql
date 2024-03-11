@@ -7,10 +7,8 @@
 
 */
 
-
 USE Desafio
 GO
-
 
 SELECT TOP 1
     Source

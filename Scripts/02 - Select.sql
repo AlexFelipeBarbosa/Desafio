@@ -11,7 +11,6 @@
 USE Desafio
 GO
 
-
 SELECT [Profile Name],
        COUNT(Esn) AS QtdeAparelhosConectados
 FROM Devices
