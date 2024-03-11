@@ -6,6 +6,8 @@
 	06 - Desenvolver um Pivot Dinamico que traz todas as series/filmes que foram assistidos, agrupando por Perfil, Titulo, Quantidade de Acessos,
 		 Tempo Total da Sessão e nas colunas dinamicas do Pivot trazer a soma do tempo total assistido de cada titulo por Ano.
 
+	Obs: Calculado em Segundos
+
 */
 
 
