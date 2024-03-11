@@ -11,8 +11,8 @@
   DTS:LocaleID="1046"
   DTS:ObjectName="Desafio"
   DTS:PackageType="5"
-  DTS:VersionBuild="90"
-  DTS:VersionGUID="{84F84B7C-F1E0-4593-96AE-AD9C0F610159}">
+  DTS:VersionBuild="91"
+  DTS:VersionGUID="{BF35CCDD-B8E6-42CE-A33C-D514AAEBF99D}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -589,7 +589,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA6aJ8m0IHWUOOPtYJ3TtnCwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAtivc7fgqGvq54+d28+SF3HlbtlPxFhG45FabPze6BmQAAAAAOgAAAAAIAACAAAABpTvW5njm6kNtws79car7hEOmNh40glWvWT12itGPrrRAAAABwsaYEL4uy6LMt3F2DBrctQAAAAAlAwqZVtk9tXvkKAwT3NTj8OdG+abRc1I43ol4SxJ2LsjSwmQw5b0hJsQqYKizgJR6W1gwlrBB4I36Cb8V4524</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA6aJ8m0IHWUOOPtYJ3TtnCwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACk9bPGFf9kXTgPBAKYJkcKEb4JUj3ofmpsGSVyH6GZVAAAAAAOgAAAAAIAACAAAAA3E9VgdufKDKNo2ELVqorpFRPmoO8nQVWPTt1vsg4clxAAAADAVvh9K2zKq7jw9bUAFZvRQAAAAKx3en7+CT59nDex41M2gZbaivWwM3yKBn84QnEsBh/gTRQQPZqnckFY39SmmJ4++X42DWCpz2TH2SGNSNma18E</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -4161,33 +4161,33 @@
         <NodeLayout
           Size="143.2,41.6"
           Id="Package\Limpar Dados"
-          TopLeft="29.1666655076869,18.2000001446407" />
+          TopLeft="29.1666655076869,17.3333334710864" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restrição]"
-          TopLeft="100.766665507687,59.8000001446407">
+          TopLeft="100.766665507687,58.9333334710864">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="224.399995231629,86.6666676860383"
+              EndConnector="224.399995231629,87.5333343595926"
               Start="0,0"
-              End="224.399995231629,79.1666676860383">
+              End="224.399995231629,80.0333343595926">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,39.3333338430192" />
+                    End="0,39.7666671797963" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,39.3333338430192"
-                    Point2="0,43.3333338430192"
-                    Point3="4,43.3333338430192" />
+                    Point1="0,39.7666671797963"
+                    Point2="0,43.7666671797963"
+                    Point3="4,43.7666671797963" />
                   <mssgle:LineSegment
-                    End="220.399995231629,43.3333338430192" />
+                    End="220.399995231629,43.7666671797963" />
                   <mssgle:CubicBezierSegment
-                    Point1="220.399995231629,43.3333338430192"
-                    Point2="224.399995231629,43.3333338430192"
-                    Point3="224.399995231629,47.3333338430192" />
+                    Point1="220.399995231629,43.7666671797963"
+                    Point2="224.399995231629,43.7666671797963"
+                    Point3="224.399995231629,47.7666671797963" />
                   <mssgle:LineSegment
-                    End="224.399995231629,79.1666676860383" />
+                    End="224.399995231629,80.0333343595926" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -4408,6 +4408,19 @@
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Carga de Dados\MyList\MyList">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\Carga de Dados\Ratings">
     <LayoutInfo>
@@ -4588,19 +4601,6 @@
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Carga de Dados\MyList\MyList">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Carga de Dados\ViewingActivity\ViewingActivity">
     <Properties>
